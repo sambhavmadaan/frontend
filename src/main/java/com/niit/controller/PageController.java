@@ -1,3 +1,4 @@
+
 package com.niit.controller;
 
 import org.springframework.stereotype.Controller;
@@ -6,12 +7,17 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class PageController {
 
+	
 	@RequestMapping(value="/")
 	public String showHomePage(){
 		
 		return "index";
 	}
-	
+	@RequestMapping(value="/Home")
+	public String showMyHomePage(){
+		
+		return "index";
+	}
 	@RequestMapping(value="/login")
 	public String showLoginPage(){
 		

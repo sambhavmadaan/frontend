@@ -33,7 +33,18 @@
     <artifactId>spring-context</artifactId>
     <version>4.3.5.RELEASE</version>
 </dependency>
-
+	<dependency>
+	  <groupId>niit.com</groupId>
+  <artifactId>backend</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+	<!-- https://mvnrepository.com/artifact/javax.servlet/jstl -->
+<dependency>
+    <groupId>javax.servlet</groupId>
+    <artifactId>jstl</artifactId>
+    <version>1.2</version>
+</dependency>
+	
   </dependencies>
   <build>
  
